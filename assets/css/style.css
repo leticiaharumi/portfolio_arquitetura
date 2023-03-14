@@ -116,8 +116,8 @@ svg,img { max-width: 100%; height: auto;}
 
 /* Banner */
 .ds-banner section{
-    padding-left: 70px;
-    padding-right: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .ds-banner section h1{
@@ -454,7 +454,6 @@ span.ds-escola{
 
 	.ds-footer section p{ font-size: 14px; }
 }
-
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.ds-banner section{
